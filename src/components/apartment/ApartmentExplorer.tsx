@@ -15,6 +15,7 @@ export function ApartmentExplorer({ initialRoom }: { initialRoom?: RoomId }) {
   const params = useSearchParams();
   const router = useRouter();
   const { productById, eggById, catalog } = useCatalog();
+  const debug = params.get("debug") === "1";
   const requested = params.get("room") ?? initialRoom ?? "room-1";
   const roomId: RoomId = isRoomId(requested) ? requested : "room-1";
   const room = catalog.rooms.find((entry) => entry.id === roomId);
@@ -41,7 +42,7 @@ export function ApartmentExplorer({ initialRoom }: { initialRoom?: RoomId }) {
 
   const goTo = (next: RoomId) => {
     closeOverlays();
-    router.replace(`/?room=${next}`, { scroll: false });
+    router.replace(debug ? `/?room=${next}&debug=1` : `/?room=${next}`, { scroll: false });
   };
 
   useEffect(() => {
@@ -88,6 +89,7 @@ export function ApartmentExplorer({ initialRoom }: { initialRoom?: RoomId }) {
         roomId={roomId}
         objects={objects}
         interactive={!product && !egg && !listOpen}
+        debug={debug}
         onObject={handleObject}
       />
       <RoomRail current={roomId} onSelect={goTo} onList={() => setListOpen(true)} />

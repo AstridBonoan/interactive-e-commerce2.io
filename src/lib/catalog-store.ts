@@ -4,7 +4,7 @@ import { seedCatalog } from "@/data/catalog";
 import { getSupabase } from "@/lib/supabase";
 import type { CmsSnapshot } from "@/types/store";
 
-const STORAGE_KEY = "bc-atelier-cms-v1";
+const STORAGE_KEY = "bc-atelier-cms-v2";
 
 export function loadLocalCatalog(): CmsSnapshot {
   if (typeof window === "undefined") return structuredClone(seedCatalog);

@@ -10,12 +10,14 @@ export function RoomStage({
   roomId,
   objects,
   interactive,
+  debug = false,
   onObject,
   children,
 }: {
   roomId: RoomId;
   objects: RoomObject[];
   interactive: boolean;
+  debug?: boolean;
   onObject: (object: RoomObject) => void;
   children?: ReactNode;
 }) {
@@ -38,7 +40,6 @@ export function RoomStage({
             key={roomId}
             className="room-frame"
             style={{
-              aspectRatio: `${art.width} / ${art.height}`,
               ["--room-aspect" as string]: String(art.width / art.height),
             }}
             initial={{ opacity: 0, scale: 1.02 }}
@@ -63,13 +64,14 @@ export function RoomStage({
                 />
               ))}
             </div>
+            <div className="room-hotspots">
             {objects.map((object) => (
               <button
                 key={object.id}
                 type="button"
                 className={`hotspot hotspot-${object.interaction?.type ?? "quiet"} ${
                   interactive ? "" : "pointer-events-none"
-                }`}
+                } ${debug ? "hotspot-debug" : ""}`}
                 style={{
                   left: `${object.x}%`,
                   top: `${object.y}%`,
@@ -86,6 +88,7 @@ export function RoomStage({
                 <span className="hotspot-label">{object.label}</span>
               </button>
             ))}
+            </div>
             {children}
           </motion.div>
         </AnimatePresence>
