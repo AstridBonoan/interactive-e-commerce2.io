@@ -1,0 +1,25 @@
+1:"$Sreact.fragment"
+2:I[56485,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js","/interactive-e-commerce2.io/_next/static/chunks/2dk4x5vzrbkcc.js"],"StoreHeader"]
+3:I[22016,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js","/interactive-e-commerce2.io/_next/static/chunks/2dk4x5vzrbkcc.js"],""]
+4:I[97367,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+9:I[97367,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"ViewportBoundary"]
+a:I[97367,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"MetadataBoundary"]
+c:I[39756,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"default"]
+d:I[37457,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"default"]
+11:I[1661,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"Providers"]
+:HL["/interactive-e-commerce2.io/_next/static/chunks/1mv9m57idi966.css","style"]
+8:X
+f:X
+f:C
+0:{"buildId":"DGWpc1yGhCcx1Avn9u78L","data":[{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"page-shell","children":[["$","$L2",null,{}],["$","div",null,{"className":"panel-card max-w-xl","children":[["$","p",null,{"className":"eyebrow","children":"Order received"}],["$","h1",null,{"className":"display-title mt-2 text-4xl","children":"The studio will pack it carefully."}],["$","p",null,{"className":"mt-4 leading-7","children":"Thank you. If Stripe is connected, payment is confirmed there. Otherwise this was a local demo order saved with the apartment."}],["$","$L3",null,{"className":"ink-button-solid mt-6 inline-block","href":"/","children":"Wander again"}]]}]]}],[["$","script","script-0",{"src":"/interactive-e-commerce2.io/_next/static/chunks/2dk4x5vzrbkcc.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":"$@7","staleTime":"$8","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L9",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"B&C — The Apartment Shop"}],["$","meta","1",{"name":"description","content":"An illustrated loft and studio that is also a store. Walk the rooms, pick up what belongs there, and find a few things that are not for sale."}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@b","staleTime":"$8","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"isPartial":"$@e","staleTime":"$8","varyParams":"$f"},{"rsc":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"isPartial":"$@10","staleTime":"$8","varyParams":"$f"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/interactive-e-commerce2.io/_next/static/chunks/1mv9m57idi966.css","precedence":"next"}],["$","script","script-0",{"src":"/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","async":true}],["$","script","script-1",{"src":"/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js","async":true}]],["$","html",null,{"lang":"en","className":"nunito_22336911-module__FLPYxG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L11",null,{"children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[["$","main",null,{"className":"page-shell","children":["$","div",null,{"className":"panel-card max-w-lg","children":[["$","h1",null,{"className":"display-title text-4xl","children":"Wrong door."}],["$","p",null,{"className":"mt-3","children":"That room is not in this apartment."}],["$","$L3",null,{"className":"ink-button-solid mt-5 inline-block","href":"/","children":"Back to the loft"}]]}]}],[]]}]}]}]}]]}],"isPartial":"$@12","staleTime":"$8","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@13","rootVaryParams":null,"needsRuntimeRequest":"$@14"}
+6:null
+8:300
+14:true
+8:C
+13:0
+b:"$undefined"
+e:"$undefined"
+10:"$undefined"
+12:"$undefined"
+7:"$undefined"

@@ -1,0 +1,25 @@
+1:"$Sreact.fragment"
+2:I[48119,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js","/interactive-e-commerce2.io/_next/static/chunks/3wnqqujt4pm_2.js","/interactive-e-commerce2.io/_next/static/chunks/0h9aibdf8t7uh.js"],"ProductDetails"]
+3:I[97367,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[97367,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"ViewportBoundary"]
+9:I[97367,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"MetadataBoundary"]
+b:I[39756,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"default"]
+c:I[37457,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"default"]
+10:I[1661,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"Providers"]
+11:I[22016,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js","/interactive-e-commerce2.io/_next/static/chunks/1lgsfkjl--u2s.js"],""]
+:HL["/interactive-e-commerce2.io/_next/static/chunks/1mv9m57idi966.css","style"]
+7:X
+e:X
+e:C
+0:{"buildId":"DGWpc1yGhCcx1Avn9u78L","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"loft-skate-deck"}],[["$","script","script-0",{"src":"/interactive-e-commerce2.io/_next/static/chunks/3wnqqujt4pm_2.js","async":true}],["$","script","script-1",{"src":"/interactive-e-commerce2.io/_next/static/chunks/0h9aibdf8t7uh.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"B&C — The Apartment Shop"}],["$","meta","1",{"name":"description","content":"An illustrated loft and studio that is also a store. Walk the rooms, pick up what belongs there, and find a few things that are not for sale."}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@a","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@d","staleTime":"$7","varyParams":"$e"},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@f","staleTime":"$7","varyParams":"$e"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/interactive-e-commerce2.io/_next/static/chunks/1mv9m57idi966.css","precedence":"next"}],["$","script","script-0",{"src":"/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","async":true}],["$","script","script-1",{"src":"/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js","async":true}]],["$","html",null,{"lang":"en","className":"nunito_22336911-module__FLPYxG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L10",null,{"children":["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}],"notFound":[["$","main",null,{"className":"page-shell","children":["$","div",null,{"className":"panel-card max-w-lg","children":[["$","h1",null,{"className":"display-title text-4xl","children":"Wrong door."}],["$","p",null,{"className":"mt-3","children":"That room is not in this apartment."}],["$","$L11",null,{"className":"ink-button-solid mt-5 inline-block","href":"/","children":"Back to the loft"}]]}]}],[]]}]}]}]}]]}],"isPartial":"$@12","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@13","rootVaryParams":null,"needsRuntimeRequest":"$@14"}
+5:null
+7:300
+14:true
+7:C
+13:0
+a:"$undefined"
+d:"$undefined"
+f:"$undefined"
+12:"$undefined"
+6:"$undefined"

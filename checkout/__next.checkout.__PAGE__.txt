@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[47257,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"ClientPageRoot"]
+3:I[69439,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js","/interactive-e-commerce2.io/_next/static/chunks/088d8q6ud-q-j.js"],"default"]
+6:I[97367,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+b:I[97367,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"ViewportBoundary"]
+c:I[97367,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"MetadataBoundary"]
+e:I[39756,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"default"]
+f:I[37457,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"default"]
+12:I[1661,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js"],"Providers"]
+13:I[22016,["/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js","/interactive-e-commerce2.io/_next/static/chunks/1lgsfkjl--u2s.js"],""]
+:HL["/interactive-e-commerce2.io/_next/static/chunks/1mv9m57idi966.css","style"]
+a:X
+11:X
+11:C
+0:{"buildId":"DGWpc1yGhCcx1Avn9u78L","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/interactive-e-commerce2.io/_next/static/chunks/088d8q6ud-q-j.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":"$@9","staleTime":"$a","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$Lb",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"B&C — The Apartment Shop"}],["$","meta","1",{"name":"description","content":"An illustrated loft and studio that is also a store. Walk the rooms, pick up what belongs there, and find a few things that are not for sale."}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@d","staleTime":"$a","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Le",null,{"parallelRouterKey":"children","template":["$","$Lf",null,{}]}]]}],"isPartial":"$@10","staleTime":"$a","varyParams":"$11"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/interactive-e-commerce2.io/_next/static/chunks/1mv9m57idi966.css","precedence":"next"}],["$","script","script-0",{"src":"/interactive-e-commerce2.io/_next/static/chunks/01l7pk6z0ms9m.js","async":true}],["$","script","script-1",{"src":"/interactive-e-commerce2.io/_next/static/chunks/3z99m6oezkhnf.js","async":true}]],["$","html",null,{"lang":"en","className":"nunito_22336911-module__FLPYxG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L12",null,{"children":["$","$Le",null,{"parallelRouterKey":"children","template":["$","$Lf",null,{}],"notFound":[["$","main",null,{"className":"page-shell","children":["$","div",null,{"className":"panel-card max-w-lg","children":[["$","h1",null,{"className":"display-title text-4xl","children":"Wrong door."}],["$","p",null,{"className":"mt-3","children":"That room is not in this apartment."}],["$","$L13",null,{"className":"ink-button-solid mt-5 inline-block","href":"/","children":"Back to the loft"}]]}]}],[]]}]}]}]}]]}],"isPartial":"$@14","staleTime":"$a","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@15","rootVaryParams":null,"needsRuntimeRequest":"$@16"}
+4:{}
+5:"$0:data:0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null
+a:300
+16:true
+a:C
+15:0
+d:"$undefined"
+10:"$undefined"
+14:"$undefined"
+9:"$undefined"
