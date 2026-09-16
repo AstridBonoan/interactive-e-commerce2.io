@@ -1,0 +1,294 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #2b241c;
+  --ink-soft: #6b6258;
+  --paper: #f6f2ea;
+  --paper-deep: #ece6db;
+  --accent: #2b241c;
+}
+
+@theme inline {
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-nunito);
+  --font-display: var(--font-nunito);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: #120e0c;
+  color: var(--ink);
+  font-family: var(--font-nunito), sans-serif;
+}
+
+.display-title {
+  font-family: var(--font-nunito), sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.eyebrow {
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.ink-button,
+.ink-button-solid,
+.ink-input {
+  border: 1px solid #d8d0c4;
+  border-radius: 999px;
+  background: #fffdf8;
+  color: var(--ink);
+  padding: 0.5rem 0.95rem;
+  font-weight: 600;
+}
+
+.ink-button-solid {
+  background: var(--ink);
+  color: #f6f2ea;
+  border-color: var(--ink);
+}
+
+.ink-input {
+  border-radius: 12px;
+}
+
+.panel-card {
+  background: #fffdf8;
+  border: 1px solid #e4ddd2;
+  border-radius: 20px;
+  padding: 1.25rem;
+  box-shadow: 0 10px 30px #2b241c10;
+}
+
+.apartment-shell {
+  position: relative;
+  min-height: 100dvh;
+  overflow: hidden;
+  background: #120e0c;
+}
+
+.apartment-stage {
+  position: relative;
+  height: 100dvh;
+  width: 100%;
+  overflow: hidden;
+  background: #120e0c;
+}
+
+.room-scroller {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  overscroll-behavior: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.room-frame {
+  position: relative;
+  flex: 0 0 auto;
+  width: min(100%, calc(100dvh * var(--room-aspect, 1.5)));
+  max-width: 100%;
+  max-height: 100dvh;
+}
+
+.room-art {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+}
+
+.hotspot {
+  position: absolute;
+  z-index: 2;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.hotspot::after {
+  content: "";
+  position: absolute;
+  inset: -10px;
+}
+
+.hotspot:hover,
+.hotspot:focus-visible {
+  background: #f4d27a33;
+  box-shadow: inset 0 0 0 2px #f6e2a8cc;
+}
+
+.hotspot-navigate:hover,
+.hotspot-navigate:focus-visible {
+  background: #fff7e628;
+  box-shadow: inset 0 0 0 2px #f6f2eacc;
+}
+
+.hotspot-egg:hover,
+.hotspot-egg:focus-visible,
+.hotspot-listen:hover,
+.hotspot-listen:focus-visible {
+  background: #c9a7ff22;
+  box-shadow: inset 0 0 0 2px #e6d4ffaa;
+}
+
+.hotspot-label {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  white-space: nowrap;
+  border-radius: 999px;
+  background: #120e0ce6;
+  color: #f6f2ea;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.28rem 0.65rem;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hotspot:hover .hotspot-label,
+.hotspot:focus-visible .hotspot-label {
+  opacity: 1;
+}
+
+.room-glow {
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  border-radius: 50%;
+}
+
+.room-glow-lamp {
+  background: radial-gradient(circle, #ffd27a88 0%, transparent 70%);
+  animation: room-breathe 3.4s ease-in-out infinite;
+}
+
+.room-glow-window {
+  border-radius: 18%;
+  background: radial-gradient(circle, #ff8a4a44 0%, #7ec8ff22 40%, transparent 75%);
+  animation: room-breathe 6s ease-in-out infinite;
+}
+
+.room-glow-lava {
+  background: radial-gradient(circle, #d26bff88 0%, transparent 70%);
+  animation: room-lava 2.8s ease-in-out infinite;
+}
+
+.room-glow-candle {
+  background: radial-gradient(circle, #ffb34799 0%, transparent 70%);
+  animation: room-breathe 2.2s ease-in-out infinite;
+}
+
+@keyframes room-breathe {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes room-lava {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.16);
+  }
+}
+
+.intro-card {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background: linear-gradient(180deg, transparent 38%, #120e0cf0 92%);
+  color: #f6f2ea;
+  padding: 2rem;
+  text-align: left;
+}
+
+.page-shell {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 5.5rem 0 3rem;
+  color: var(--ink);
+  background: transparent;
+}
+
+.page-shell,
+.page-shell ~ * {
+  color: var(--ink);
+}
+
+main.page-shell {
+  min-height: 100dvh;
+}
+
+body:has(main.page-shell) {
+  background: #f6f2ea;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .room-scroller {
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: auto;
+  }
+
+  .room-frame {
+    width: max(100%, 920px);
+    max-width: none;
+    max-height: none;
+    min-height: 100dvh;
+  }
+
+  .hotspot-label {
+    font-size: 0.7rem;
+  }
+
+  .store-nav .ink-button,
+  .store-nav .ink-button-solid {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .room-glow-lamp,
+  .room-glow-window,
+  .room-glow-lava,
+  .room-glow-candle {
+    animation: none;
+  }
+}
